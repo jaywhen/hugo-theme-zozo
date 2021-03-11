@@ -23,7 +23,8 @@ html::-webkit-scrollbar-thumb {
 
 body {
   color: #333333;
-  font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Noto Serif SC', serif,cursive;
   font-size: 16px;
   width: 100%;
   background-color: #f7f7f7;
@@ -157,6 +158,8 @@ hr {
   letter-spacing: 2px;
   line-height: 1.2;
   color: #000000;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-weight: 400;
 }
 
 .header .site_title_container .site_title a span {
@@ -187,12 +190,12 @@ hr {
 }
 
 .header .my_socials i {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .header .my_socials a {
   color: #5f5f5f;
-  font-size: 12px;
+  font-size: 16px;
   float: none;
   cursor: pointer;
 }
@@ -352,11 +355,11 @@ hr {
 
 .footer .powered_by {
   margin: 0;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .footer .powered_by a {
-  color: #cccccc;
+  color: #9b9b9b;
   margin: 0 2px;
 }
 
@@ -484,7 +487,7 @@ hr {
 .markdown code {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.9em;
-  background: #f8fafc;
+  background: #f8fafc; 
   border: none;
   white-space: pre;
 }
